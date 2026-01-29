@@ -1,6 +1,7 @@
 #headingid {
     text-align: center;
     color: rgb(215, 16, 185);
+    size: 50%;
 }
 #para {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -9,6 +10,10 @@
 #mybutton {
     font-size: 2em;
     padding: 5px 25px;
+    color: azure;
+    background-color: aqua;
+    cursor: pointer;
+    transition: background-color 0.25s;
 }
 body {
     text-align: center;
@@ -17,4 +22,7 @@ body {
     font-size: 2em;
     padding: 25px 25px;
     
+}
+.buttons:hover {
+    background-color: blue;
 }
